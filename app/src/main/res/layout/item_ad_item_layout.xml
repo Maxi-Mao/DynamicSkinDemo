@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    skin:bgColor="bg_colr"
+    skin:enable="true"
+    skin:skinStyle="10001"
+    skin:skinViewFrom="MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_macct_focus_focused"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:drawableLeft="@drawable/actionbar_ic_history_normal"
+        android:drawablePadding="5dp"
+        android:text="测试测试测试"
+        skin:bgColor="item_bg_colr"
+        skin:enable="true"
+        skin:skinDrawableLeft="item_left_img"
+        skin:skinStyle="10001"
+        skin:skinViewFrom="MainActivity"
+        skin:textColor="item_title_colr" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    skin:bgColor="bg_colr"
+    skin:enable="true"
+    skin:skinStyle="10003"
+    skin:skinViewFrom="MainActivity">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_alipay"
+        android:layout_gravity="center_horizontal"
+        skin:enable="true"
+        skin:skinStyle="10003"
+        skin:skinViewFrom="MainActivity"
+        skin:bgImg="item_bg_img"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="支付宝"
+        android:textColor="#333333"
+        skin:enable="true"
+        skin:skinStyle="10003"
+        skin:skinViewFrom="MainActivity"
+        skin:textColor="item_title_colr" />
+</LinearLayout>
